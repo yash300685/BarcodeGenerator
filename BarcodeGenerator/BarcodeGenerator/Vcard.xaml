@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BarcodeGenerator.Vcard"
+              xmlns:local="clr-namespace:BarcodeGenerator">
+    <ContentPage.Content>
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9" />
+                <RowDefinition Height="Auto" />
+              
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+
+
+            </Grid.ColumnDefinitions>
+           
+                <Image Source="Images\rainbow.png" Grid.Row="0"  Grid.ColumnSpan="2" />
+            
+                <StackLayout Grid.Row="1" Grid.Column="0" >
+             
+                <Label Text="vCard" FontSize="Medium" Margin="0,25,0,0"
+                />
+                <Entry Placeholder="First Name" x:Name="entryfirstname"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="Mobile Number" x:Name="entryMobileNumber"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="Email" x:Name="entryEmail"  FontSize="Micro" Margin="0,22,0,0"
+                />
+
+                <Entry Placeholder="CompanyName" x:Name="entryCompanyName"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="Street" x:Name="entryStreet"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="Zip" x:Name="entryzip"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="State" x:Name="entrystate"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                
+                <Button Text="Create Code" BackgroundColor="#005493" WidthRequest="260" HeightRequest="50" HorizontalOptions="Start" FontSize="Small" TextColor="White" Margin="0,22,0,0"  Clicked="GenerateQRCode"/>
+
+
+            </StackLayout>
+            <StackLayout Grid.Row="1" Grid.Column="1" >
+           
+                <Entry Placeholder="Last Name" x:Name="entrylastname"  FontSize="Micro" Margin="0,84,0,0"
+                />
+                <Entry Placeholder="Phone Number" x:Name="entryPhoneNumber"  FontSize="Micro" Margin="0,22,0,0"
+                />
+
+                <Entry Placeholder="Website" x:Name="entryWebsite"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="Job role" x:Name="entryJob"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="City" x:Name="entrycity"  FontSize="Micro" Margin="0,22,0,0"
+                />
+                <Entry Placeholder="Country" x:Name="entryCountry"  FontSize="Micro" Margin="0,22,0,0"
+                />
+               
+
+            </StackLayout>
+            <Grid Grid.Row="1" Grid.Column="2" BackgroundColor="#efefef" >
+
+
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*" />
+                    <ColumnDefinition Width="70*" />
+                    <ColumnDefinition Width="15*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*" />
+                    <RowDefinition Height="70*" />
+                    <RowDefinition Height="15*" />
+                </Grid.RowDefinitions>
+                <BoxView Grid.Row="0" Grid.Column="0" />
+
+                <StackLayout     Grid.Row="1" Grid.Column="1" BackgroundColor="White" HorizontalOptions="Fill"  VerticalOptions="Fill" >
+                    <Label Text="QR CODE PREVIEW" HorizontalOptions="Center" Margin="0,30,0,0" FontSize="Micro" TextColor="#005691" FontAttributes="Bold" />
+                    <local:QRResult x:Name="qrResult"  WidthRequest="150" HeightRequest="150"  Margin="0,30,0,0" HorizontalOptions="Center" />
+                    <Button WidthRequest="250" HeightRequest="50" Margin="0,40,0,0" HorizontalOptions="Center" BackgroundColor="#005493" Text="Download" TextColor="White" FontSize="Micro" Clicked="DownloadQR"/>
+
+                </StackLayout >
+                <BoxView  Grid.Row="2" Grid.Column="2"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
