@@ -26,3 +26,12 @@ ZXing.Net.Mobile.Forms.Android
 ZXing.Net.Mobile.Forms
 zxing.portable
 ZXingNetMobile
+Plugin.FilePicker.Abstractions
+Plugin.FilePicker
+Microsoft.WindowsAzure.Storage
+Newtonsoft.Json
+Acr.Support.Android
+Acr.UserDialogs
+Acr.UserDialogs.Interface
+AndHUD
+Splat

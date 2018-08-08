@@ -16,6 +16,7 @@
       <DependentUpon>About.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)AdControlView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -28,6 +29,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MasterPage.xaml.cs">
+      <DependentUpon>MasterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MasterPageItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pdf.xaml.cs">
+      <DependentUpon>Pdf.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)QRGenerator.xaml.cs">
       <DependentUpon>QRGenerator.xaml</DependentUpon>
@@ -98,5 +106,20 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MasterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pdf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)pdf.png" />
   </ItemGroup>
 </Project>

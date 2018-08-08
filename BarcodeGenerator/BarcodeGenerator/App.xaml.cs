@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Threading;
 using Xamarin.Forms;
 
 namespace BarcodeGenerator
@@ -11,12 +11,14 @@ namespace BarcodeGenerator
 	{
 		public App ()
 		{
-			InitializeComponent();
-            NavigationPage navpage = new NavigationPage(new QRGenerator());
+            
+            InitializeComponent();
+            //NavigationPage navpage = new NavigationPage(new QRGenerator());
+            MainPage = new QRGenerator();
 
-           
 
-            MainPage = navpage;
+
+            
 		}
 
        

@@ -10,17 +10,36 @@ using Xamarin.Forms.Xaml;
 namespace BarcodeGenerator
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class QRGenerator : TabbedPage
-	{
+	public partial class QRGenerator : MasterDetailPage
+    {
 		public QRGenerator ()
 		{
 			InitializeComponent ();
-            this.Title = "QR Code Generator";
-            NavigationPage.SetTitleIcon(this, "Images/logo.png");
-            
+            masterPage.listView.ItemSelected += OnItemSelected;
 
+            if (Device.RuntimePlatform == Device.UWP)
+            {
+                MasterBehavior = MasterBehavior.Popover;
+                
+                }
+        }
+
+        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item = e.SelectedItem as MasterPageItem;
+            if (item != null)
+            {
+               var  page = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                page.BarBackgroundColor = Color.FromHex("#005493");
+                page.BarTextColor = Color.White;
+                Detail = page;
+                masterPage.listView.SelectedItem = null;
+                IsPresented = false;
+            }
         }
 
 
+    }
+
+
 	}
-}

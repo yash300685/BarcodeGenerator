@@ -10,6 +10,7 @@ using Windows.Graphics.Imaging;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Notifications;
+
 using Windows.UI.Xaml.Media.Imaging;
 using Xamarin.Forms;
 using ZXing;
@@ -19,6 +20,7 @@ using ZXing.Net.Mobile.Forms;
 [assembly: Dependency(typeof(SaveQRCode))]
 namespace BarcodeGenerator.UWP
 {
+
     public class SaveQRCode : IDownloadImage
     {
         

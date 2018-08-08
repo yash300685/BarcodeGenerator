@@ -1,13 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
     
-<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms" 
+<MasterDetailPage   xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BarcodeGenerator.QRGenerator"
-             
-             xmlns:local="clr-namespace:BarcodeGenerator">
+             xmlns:local="clr-namespace:BarcodeGenerator"
+                    
+                    >
+    <MasterDetailPage.Master>
+        <local:MasterPage x:Name="masterPage" />
+
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage BarBackgroundColor='#005493' BarTextColor="White">
+            <x:Arguments>
+                <local:URL />
+                
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+   
     
-    <local:URL />
-    <local:Text/>
-    <local:Vcard/>
-    <local:About/>
-</TabbedPage>
+</MasterDetailPage>

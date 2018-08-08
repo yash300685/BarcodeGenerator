@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BarcodeGenerator.Vcard"
+             Padding="40,0,0,0"
               xmlns:local="clr-namespace:BarcodeGenerator">
     <ContentPage.Content>
         
@@ -19,7 +20,7 @@
 
             </Grid.ColumnDefinitions>
            
-                <Image Source="Images\rainbow.png" Grid.Row="0"  Grid.ColumnSpan="2" />
+                
             
                 <StackLayout Grid.Row="1" Grid.Column="0" >
              
@@ -87,6 +88,7 @@
                 </StackLayout >
                 <BoxView  Grid.Row="2" Grid.Column="2"/>
             </Grid>
+            
         </Grid>
     </ContentPage.Content>
 </ContentPage>
