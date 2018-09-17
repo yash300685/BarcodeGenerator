@@ -67,7 +67,7 @@ namespace BarcodeGenerator
         {
             foreach (char c in text)
             {
-                if (!Char.IsUpper(c)&&!Char.IsDigit(c) && c != '_' && c != '.' && c != '$' && c != '/' && c != '+' && c != '%' && !Char.IsWhiteSpace(c))
+                if (!Char.IsUpper(c)&&!Char.IsDigit(c) && c != '_' && c != '.' && c != '$' && c != '/' && c != '+' && c != '%' && c != '-' && !Char.IsWhiteSpace(c))
                     return false;
             }
             return true;

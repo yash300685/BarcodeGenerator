@@ -32,9 +32,12 @@ namespace BarcodeGenerator
                var  page = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
                 page.BarBackgroundColor = Color.FromHex("#005493");
                 page.BarTextColor = Color.White;
-                Detail = page;
+               Detail = page;
+               
+                //await Detail.Navigation.PushAsync(page);
                 masterPage.listView.SelectedItem = null;
                 IsPresented = false;
+
             }
         }
 

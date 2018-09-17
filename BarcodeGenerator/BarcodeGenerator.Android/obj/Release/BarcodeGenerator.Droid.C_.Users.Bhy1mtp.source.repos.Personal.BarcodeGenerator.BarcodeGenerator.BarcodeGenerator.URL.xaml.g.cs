@@ -25,11 +25,15 @@ namespace BarcodeGenerator {
         private global::BarcodeGenerator.QRResult qrResult;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::BarcodeGenerator.AdControlViewUrl AdControl;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(URL));
             entryWebsite = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "entryWebsite");
             barcodeTypes = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "barcodeTypes");
             qrResult = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BarcodeGenerator.QRResult>(this, "qrResult");
+            AdControl = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BarcodeGenerator.AdControlViewUrl>(this, "AdControl");
         }
     }
 }

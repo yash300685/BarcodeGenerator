@@ -1,0 +1,6 @@
+MainPackage=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x64\Release\Upload\BarcodeGenerator.UWP_1.1.2.0_x64.appx
+SymbolPackage=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x64\Release\Upload\BarcodeGenerator.UWP_1.1.2.0\BarcodeGenerator.UWP_1.1.2.0_x64.appxsym
+ResourcePack=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x64\Release\Upload\BarcodeGenerator.UWP_1.1.2.0_scale-100.appx
+ResourcePack=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x64\Release\Upload\BarcodeGenerator.UWP_1.1.2.0_scale-125.appx
+ResourcePack=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x64\Release\Upload\BarcodeGenerator.UWP_1.1.2.0_scale-150.appx
+ResourcePack=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x64\Release\Upload\BarcodeGenerator.UWP_1.1.2.0_scale-400.appx

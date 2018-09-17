@@ -25,8 +25,8 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Debug\BarcodeGenerator.exe">
-      <PackagePath>entrypoint\BarcodeGenerator.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Debug\QRGenerator.exe">
+      <PackagePath>entrypoint\QRGenerator.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\.nuget\packages\acr.userdialogs\6.0.0\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
@@ -406,6 +406,12 @@
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\.nuget\packages\windowsazure.storage\9.3.0\lib\win8\Microsoft.WindowsAzure.Storage.dll">
       <PackagePath>Microsoft.WindowsAzure.Storage.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\.nuget\packages\xam.plugins.messaging\5.0.0\lib\UAP10\Plugin.Messaging.Abstractions.dll">
+      <PackagePath>Plugin.Messaging.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\.nuget\packages\xam.plugins.messaging\5.0.0\lib\UAP10\Plugin.Messaging.dll">
+      <PackagePath>Plugin.Messaging.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\.nuget\packages\xamarin.forms\2.5.1.527436\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -439,6 +445,41 @@
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\.nuget\packages\zxing.net.mobile.forms\2.3.2\lib\UAP10\ZXing.Net.Mobile.Forms.dll">
       <PackagePath>ZXing.Net.Mobile.Forms.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -457,6 +498,26 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Images\contact.png">
@@ -563,10 +624,6 @@
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -587,9 +644,6 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Images\rainbow.png">
-      <PackagePath>Images\rainbow.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Images\qr.png">
       <PackagePath>Images\qr.png</PackagePath>
     </AppxPackagedFile>
@@ -602,14 +656,11 @@
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Images\url.png">
       <PackagePath>Images\url.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator\pdf.png">
-      <PackagePath>pdf.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Debug\BarcodeGenerator.xr.xml">
-      <PackagePath>BarcodeGenerator.xr.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Debug\QRGenerator.xr.xml">
+      <PackagePath>QRGenerator.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -660,8 +711,8 @@
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Debug\Core\BarcodeGenerator.exe">
-      <PackagePath>BarcodeGenerator.exe</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Debug\Core\QRGenerator.exe">
+      <PackagePath>QRGenerator.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

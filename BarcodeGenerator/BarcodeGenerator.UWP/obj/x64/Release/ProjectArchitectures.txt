@@ -1,1 +1,0 @@
-C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\BarcodeGenerator.UWP.csproj;x64

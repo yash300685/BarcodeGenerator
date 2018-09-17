@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\Upload\BarcodeGenerator.UWP_1.1.2.0_x86.appx
+SymbolPackage=C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\Upload\BarcodeGenerator.UWP_1.1.2.0\BarcodeGenerator.UWP_1.1.2.0_x86.appxsym

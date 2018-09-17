@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 using Windows.System.Profile;
 using Xamarin.Forms.Platform.UWP;
 
-[assembly: ExportRenderer(typeof(AdControlView), typeof(AdViewRenderer))]
+[assembly: ExportRenderer(typeof(AdControlViewUrl), typeof(AdViewRenderer))]
 namespace BarcodeGenerator.UWP
 {
-    class AdViewRenderer : ViewRenderer<AdControlView, AdControl>
+    class AdViewRenderer : ViewRenderer<AdControlViewUrl, AdControl>
     {
-        string bannerId = "test";
+        string bannerId = "1100029022";
         AdControl adView;
-        string applicationID = "3f83fe91-d6be-434d-a0ae-7351c5a997f1";
+        string applicationID = "9pcv4wlj2q02";
         void CreateNativeAdControl()
         {
             if (adView != null)
@@ -34,7 +34,7 @@ namespace BarcodeGenerator.UWP
             {
                 ApplicationId = applicationID,
                 AdUnitId = bannerId,
-                HorizontalAlignment = Windows.UI.Xaml.HorizontalAlignment.Center,
+                HorizontalAlignment = Windows.UI.Xaml.HorizontalAlignment.Right,
                 VerticalAlignment = Windows.UI.Xaml.VerticalAlignment.Bottom,
                 Height = height,
                 Width = width
@@ -42,10 +42,10 @@ namespace BarcodeGenerator.UWP
 
         }
 
-        protected override void OnElementChanged(ElementChangedEventArgs<AdControlView> e)
+        protected override void OnElementChanged(ElementChangedEventArgs<AdControlViewUrl> e)
         {
             base.OnElementChanged(e);
-            if (Control == null)
+            if (Control == null && adView==null)
             {
                 CreateNativeAdControl();
                 SetNativeControl(adView);

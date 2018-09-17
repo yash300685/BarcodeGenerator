@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="using:BarcodeGenerator"
+			 x:Class="BarcodeGenerator.MasterPage"
+			
+			 
+			 Title="Barcode Generator">
+    <StackLayout>
+        <ListView x:Name="listView" x:FieldModifier="public">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="URL" IconSource="Images\url.png" TargetType="{x:Type local:URL}" />
+                    <local:MasterPageItem Title="Text" IconSource="Images\text.png" TargetType="{x:Type local:Text}" />
+                    <local:MasterPageItem Title="Vcard"  IconSource="Images\contact.png" TargetType="{x:Type local:Vcard}" />
+                    <local:MasterPageItem Title="PDF"  IconSource="Images\pdf.png" TargetType="{x:Type local:Pdf}" />
+                    <local:MasterPageItem Title="Txt/Word File"  IconSource="Images\doc.png" TargetType="{x:Type local:Pdf}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

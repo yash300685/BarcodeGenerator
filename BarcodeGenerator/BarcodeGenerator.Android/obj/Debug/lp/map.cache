@@ -35,3 +35,5 @@ Acr.UserDialogs
 Acr.UserDialogs.Interface
 AndHUD
 Splat
+Plugin.Messaging.Abstractions
+Plugin.Messaging

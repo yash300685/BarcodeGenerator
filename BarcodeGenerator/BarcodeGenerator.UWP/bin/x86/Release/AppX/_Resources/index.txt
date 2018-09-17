@@ -1,2 +1,4 @@
-BarcodeGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+QRGenerator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   BarcodeGenerator.UWP.App.xaml
+  BarcodeGenerator.UWP.MasterPage.xaml
+  BarcodeGenerator.UWP.Pdf.xaml

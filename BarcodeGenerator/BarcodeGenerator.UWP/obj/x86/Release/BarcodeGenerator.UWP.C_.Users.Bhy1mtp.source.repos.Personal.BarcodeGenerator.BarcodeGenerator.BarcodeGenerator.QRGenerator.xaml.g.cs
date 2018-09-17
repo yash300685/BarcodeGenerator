@@ -13,11 +13,15 @@ namespace BarcodeGenerator {
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Bhy1mtp\\source\\repos\\Personal\\BarcodeGenerator\\BarcodeGenerator\\BarcodeG" +
         "enerator\\QRGenerator.xaml")]
-    public partial class QRGenerator : global::Xamarin.Forms.TabbedPage {
+    public partial class QRGenerator : global::Xamarin.Forms.MasterDetailPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::BarcodeGenerator.MasterPage masterPage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(QRGenerator));
+            masterPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BarcodeGenerator.MasterPage>(this, "masterPage");
         }
     }
 }

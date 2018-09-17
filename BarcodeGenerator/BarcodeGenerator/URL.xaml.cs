@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.Messaging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -72,7 +73,7 @@ namespace BarcodeGenerator
                     barcode.BarcodeValue = entryWebsite.Text.Trim();
                     qrResult.Content = barcode;
                    
-
+                    
                  
 
                 }
@@ -93,8 +94,24 @@ namespace BarcodeGenerator
 
         private void DownloadQR(object sender1, EventArgs e1)
         {
-            DependencyService.Get<IDownloadImage>().SaveImage(barcode);
+            if (barcode != null)
+                DependencyService.Get<IDownloadImage>().SaveImage(barcode);
+            else
+            {
+                DisplayAlert("Alert", "Please Create Code", "OK");
+            }
 
+        }
+
+        private void CopyImage(object sender1, EventArgs e1)
+        {
+            if(barcode!=null)
+            DependencyService.Get<IDownloadImage>().CopyImage(barcode);
+
+            else
+            {
+                DisplayAlert("Alert", "Please Create Code", "OK");
+            }
 
         }
     }

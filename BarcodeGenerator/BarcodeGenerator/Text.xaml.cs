@@ -161,7 +161,7 @@ namespace BarcodeGenerator
             catch (ArgumentException io)
             {
                 // TODO Auto-generated catch block
-                DisplayAlert("Alert", "Entered Text does not conform with seleted Barcode Type standards", "OK");
+                DisplayAlert("Alert", "Entered Text does not conform with selected Barcode Type standards", "OK");
             }
 
         }
@@ -175,12 +175,31 @@ namespace BarcodeGenerator
 
         private void DownloadQR(object sender1, EventArgs e1)
         {
-            DependencyService.Get<IDownloadImage>().SaveImage(barcode);
+            if (barcode != null)
+            {
+                DependencyService.Get<IDownloadImage>().SaveImage(barcode);
+            }
+            else
+            {
+                DisplayAlert("Alert", "Please Create Code", "OK");
+            }
 
 
         }
 
-       
+        private void CopyImage(object sender1, EventArgs e1)
+        {
+            if (barcode != null)
+            {
+                DependencyService.Get<IDownloadImage>().CopyImage(barcode);
+            }
+            else
+            {
+                DisplayAlert("Alert", "Please Create Code", "OK");
+            }
+
+        }
+
     }
 }
 

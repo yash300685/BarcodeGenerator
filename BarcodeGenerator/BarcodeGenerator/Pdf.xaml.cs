@@ -57,8 +57,23 @@ namespace BarcodeGenerator
         {
             barcodetype = barcodeTypes.Items[barcodeTypes.SelectedIndex];
         }
-        private void GenerateQRCode(object sender, EventArgs e)
+        private async void GenerateQRCode(object sender, EventArgs e)
         {
+
+            qrResult.Content = image;
+            uploadedpath = "";
+            if (pickedFile != null)
+            {
+              
+                UserDialogs.Instance.ShowLoading("Generating QR", MaskType.Clear);
+                await UploadPdf(pickedFile.GetStream());
+            }
+            else
+            {
+                await DisplayAlert("Alert", "Please choose pdf file to generate code", "OK");
+                return;
+            }
+
             try
             {
                 if (uploadedpath != string.Empty&&uploadedpath != null)
@@ -94,7 +109,7 @@ namespace BarcodeGenerator
                 }
                 else
                 {
-                    DisplayAlert("Alert", "Please Upload the file", "OK");
+                    await DisplayAlert("Alert", "Please choose pdf file to generate code", "OK");
                 }
 
 
@@ -102,25 +117,26 @@ namespace BarcodeGenerator
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine(ex.ToString());
-                DisplayAlert("Alert", "Something went wrong ,Please try again", "OK");
+                await DisplayAlert("Alert", "Something went wrong ,Please try again", "OK");
             }
-
+            UserDialogs.Instance.HideLoading();
         }
 
         private void DownloadQR(object sender1, EventArgs e1)
         {
-            DependencyService.Get<IDownloadImage>().SaveImage(barcode);
+            if (barcode != null)
+            {
+                DependencyService.Get<IDownloadImage>().SaveImage(barcode);
+            }
+            else
+            {
+                DisplayAlert("Alert", "Please Create Code", "OK");
+            }
 
 
         }
 
-        private  void Upload(object sender1, EventArgs e1)
-        {
-            uploadedpath = "";
-            qrResult.Content = image;
-            UploadPdf(pickedFile.GetStream());
-            
-        }
+       
 
         
 
@@ -148,11 +164,13 @@ namespace BarcodeGenerator
             }
         }
 
-        private async void UploadPdf(Stream pdftoupload)
+        private async 
+        Task
+UploadPdf(Stream pdftoupload)
         {
 
 
-            UserDialogs.Instance.ShowLoading("Uploading",MaskType.Clear);
+           
 
             //! added using Microsoft.WindowsAzure.Storage;
             var account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=barcodepdfstorage;AccountKey=7dZXH3RbSTKODKqCWGMlukiSedwbb4Gmu40yhBMBhOIXLLjjtiC3FbqnxEIpa8Q+LEGdg+fksgsMQJWnwEYlrg==;EndpointSuffix=core.windows.net");
@@ -163,9 +181,23 @@ namespace BarcodeGenerator
             var blockBlob = container.GetBlockBlobReference($"{uniqueName}.pdf");
             
             await blockBlob.UploadFromStreamAsync(pdftoupload);
-            await DisplayAlert("Alert", "Pdf uploaded", "OK");
+            
             uploadedpath = blockBlob.Uri.OriginalString;
             UserDialogs.Instance.HideLoading();
+
+        }
+
+        private void CopyImage(object sender1, EventArgs e1)
+        {
+            if (barcode != null)
+            {
+                DependencyService.Get<IDownloadImage>().CopyImage(barcode);
+            }
+
+            else
+            {
+                DisplayAlert("Alert", "Please Create Code", "OK");
+            }
 
         }
     }

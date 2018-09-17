@@ -8,9 +8,9 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
-    <PackageIdentityPublisher>CN=CI/DAD5.2</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\obj\x86\Release\</IntermediateOutputPath>
+    <PackageIdentityName>05de684f-6624-45fc-a19a-4f3d59384fa9</PackageIdentityName>
+    <PackageIdentityPublisher>CN=1BC2F599-BD8A-46E1-8AD0-54BC36984CDF</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,250 +18,363 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1B62A1E7E2942CED0DA2D06CA9E683D0B257B2F420EB7B655AFF09B087900F57</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>BarcodeGenerator_1.0.10.0_x86__ann0m2nz77x3p</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>BarcodeGenerator_ann0m2nz77x3p!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>BarcodeGenerator</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=CI/DAD5.2</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.10.0</RegisteredVersion>
+    <LayoutDir>C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>178A6B4074EFA15DCE06D9E6A5E1953F109E1A606B5BD20A707C3FE8D6641A61</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7756ModMobility.QRBarcodeGenerator_1.1.2.0_x86__fznm6ezkxkq3y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7756ModMobility.QRBarcodeGenerator_fznm6ezkxkq3y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7756ModMobility.QRBarcodeGenerator</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=1BC2F599-BD8A-46E1-8AD0-54BC36984CDF</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-16T20:00:59.793</Modified>
+      <Modified>2018-09-10T07:07:15.334</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Acr.UserDialogs\ActionSheetContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\ActionSheetContentDialog.xaml</PackagePath>
+      <Modified>2016-07-13T04:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Acr.UserDialogs\DatePickerControl.xaml">
+      <PackagePath>Acr.UserDialogs\DatePickerControl.xaml</PackagePath>
+      <Modified>2016-07-13T04:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Acr.UserDialogs\LoginContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\LoginContentDialog.xaml</PackagePath>
+      <Modified>2016-07-13T04:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Acr.UserDialogs\ProgressContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\ProgressContentDialog.xaml</PackagePath>
+      <Modified>2016-07-13T04:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Acr.UserDialogs\PromptContentDialog.xaml">
+      <PackagePath>Acr.UserDialogs\PromptContentDialog.xaml</PackagePath>
+      <Modified>2016-07-13T04:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Acr.UserDialogs\TimePickerControl.xaml">
+      <PackagePath>Acr.UserDialogs\TimePickerControl.xaml</PackagePath>
+      <Modified>2016-07-13T04:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2018-07-13T20:24:19.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2018-08-12T15:02:39.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <Modified>2018-08-12T15:02:40.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <Modified>2018-08-12T15:02:40.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <Modified>2018-08-12T15:02:40.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <Modified>2018-08-12T15:02:40.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:00:10.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:00:11.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:00:11.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:00:12.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:00:13.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
       <Modified>2018-04-30T21:43:17.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-125.png">
       <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
       <Modified>2018-04-30T21:43:17.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-150.png">
       <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
       <Modified>2018-04-30T21:43:17.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-04-30T21:43:17.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-400.png">
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
       <Modified>2018-04-30T21:43:17.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.243</Modified>
+      <Modified>2018-08-12T14:56:38.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.243</Modified>
+      <Modified>2018-08-12T14:56:38.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.243</Modified>
+      <Modified>2018-08-12T14:56:39.251</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.258</Modified>
+      <Modified>2018-08-12T14:56:40.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.336</Modified>
+      <Modified>2018-08-12T14:56:41.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.344</Modified>
+      <Modified>2018-08-12T15:05:36.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.344</Modified>
+      <Modified>2018-08-12T15:05:36.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.344</Modified>
+      <Modified>2018-08-12T15:05:37.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.344</Modified>
+      <Modified>2018-08-12T15:05:37.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.422</Modified>
+      <Modified>2018-08-12T15:05:38.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:14.863</Modified>
+      <Modified>2018-08-12T14:56:58.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:14.972</Modified>
+      <Modified>2018-08-12T14:56:58.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.030</Modified>
+      <Modified>2018-08-12T14:56:58.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.128</Modified>
+      <Modified>2018-08-12T14:56:58.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.229</Modified>
+      <Modified>2018-08-12T14:56:59.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.288</Modified>
+      <Modified>2018-08-12T14:56:59.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.639</Modified>
+      <Modified>2018-08-12T14:57:00.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.348</Modified>
+      <Modified>2018-08-12T14:56:59.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.714</Modified>
+      <Modified>2018-08-12T14:57:00.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.571</Modified>
+      <Modified>2018-08-12T14:57:00.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.953</Modified>
+      <Modified>2018-08-12T14:57:01.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.421</Modified>
+      <Modified>2018-08-12T14:56:59.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.802</Modified>
+      <Modified>2018-08-12T14:57:00.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.482</Modified>
+      <Modified>2018-08-12T14:56:59.740</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-14T20:17:15.862</Modified>
+      <Modified>2018-08-12T14:57:00.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.609</Modified>
+      <Modified>2018-08-12T15:01:29.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:01:30.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:01:30.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:01:30.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-12T15:01:30.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.625</Modified>
+      <Modified>2018-08-12T15:05:08.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.625</Modified>
+      <Modified>2018-08-12T15:05:09.109</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.625</Modified>
+      <Modified>2018-08-12T15:05:09.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.708</Modified>
+      <Modified>2018-08-12T15:05:09.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-30T21:43:17.708</Modified>
+      <Modified>2018-08-12T15:05:10.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\BarcodeGenerator.dll">
-      <PackagePath>BarcodeGenerator.dll</PackagePath>
-      <Modified>2018-07-16T20:00:58.509</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\BarcodeGenerator.exe">
-      <PackagePath>BarcodeGenerator.exe</PackagePath>
-      <Modified>2018-07-16T20:00:59.757</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\BarcodeGenerator.pdb">
-      <PackagePath>BarcodeGenerator.pdb</PackagePath>
-      <Modified>2018-07-16T20:00:59.747</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2016-06-14T02:51:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\logo.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Coding4Fun.Toolkit.Controls\Themes\Generic.xbf">
+      <PackagePath>Coding4Fun.Toolkit.Controls\Themes\Generic.xbf</PackagePath>
+      <Modified>2016-05-12T20:21:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\contact.png">
+      <PackagePath>Images\contact.png</PackagePath>
+      <Modified>2018-08-06T08:01:22.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\doc.png">
+      <PackagePath>Images\doc.png</PackagePath>
+      <Modified>2018-09-10T06:55:01.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\logo.png">
       <PackagePath>Images\logo.png</PackagePath>
       <Modified>2018-05-14T19:18:46.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\qr.png">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\pdf.png">
+      <PackagePath>Images\pdf.png</PackagePath>
+      <Modified>2018-08-06T19:01:23.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\qr.png">
       <PackagePath>Images\qr.png</PackagePath>
       <Modified>2018-05-17T21:33:32.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\rainbow.png">
-      <PackagePath>Images\rainbow.png</PackagePath>
-      <Modified>2018-05-14T16:34:25.300</Modified>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\text.png">
+      <PackagePath>Images\text.png</PackagePath>
+      <Modified>2018-08-06T07:52:11.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\Images\url.png">
+      <PackagePath>Images\url.png</PackagePath>
+      <Modified>2018-08-06T07:54:46.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2018-07-13T20:24:19.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\rainbow.png">
-      <PackagePath>rainbow.png</PackagePath>
-      <Modified>2018-05-17T21:24:45.939</Modified>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\QRGenerator.dll">
+      <PackagePath>QRGenerator.dll</PackagePath>
+      <Modified>2018-09-10T07:07:08.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\QRGenerator.exe">
+      <PackagePath>QRGenerator.exe</PackagePath>
+      <Modified>2018-09-10T07:07:15.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\QRGenerator.pdb">
+      <PackagePath>QRGenerator.pdb</PackagePath>
+      <Modified>2018-09-10T07:07:15.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-16T19:51:08.743</Modified>
+      <Modified>2018-09-10T06:59:16.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\_Resources\0.rsrc">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
-      <Modified>2018-07-16T20:00:00.794</Modified>
+      <Modified>2018-09-10T07:01:37.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\_Resources\index.txt">
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\_Resources\1.rsrc">
+      <PackagePath>_Resources\1.rsrc</PackagePath>
+      <Modified>2018-09-10T07:01:37.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\_Resources\2.rsrc">
+      <PackagePath>_Resources\2.rsrc</PackagePath>
+      <Modified>2018-09-10T07:01:37.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bhy1mtp\source\repos\Personal\BarcodeGenerator\BarcodeGenerator\BarcodeGenerator.UWP\bin\x86\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
-      <Modified>2018-07-16T20:00:00.795</Modified>
+      <Modified>2018-09-10T07:01:37.206</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -318,6 +431,30 @@
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.1805.2.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.1805.2.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\ARM\Microsoft.Advertising.Xaml.ARM.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.1805.2.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.1805.2.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x64\Microsoft.Advertising.Xaml.x64.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.1805.2.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.1805.2.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x86\Microsoft.Advertising.Xaml.x86.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>

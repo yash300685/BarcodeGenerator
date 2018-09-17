@@ -642,6 +642,20 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "Xam.Plugins.Messaging/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.1.527436": {
         "type": "package",
         "compile": {
@@ -1380,6 +1394,20 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
         }
       },
       "Xamarin.Forms/2.5.1.527436": {
@@ -2122,6 +2150,20 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+      "Xam.Plugins.Messaging/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Forms/2.5.1.527436": {
         "type": "package",
         "compile": {
@@ -2860,6 +2902,20 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Messaging.dll": {}
         }
       },
       "Xamarin.Forms/2.5.1.527436": {
@@ -6020,6 +6076,40 @@
         "windowsazure.storage.nuspec"
       ]
     },
+    "Xam.Plugins.Messaging/5.0.0": {
+      "sha512": "pQF7logne6usvcn143eWf/8UUuH1aj8gUtGihIk2ATmQ/qkxFzC39hS5lnahcBVgtgjt1MylMZousEmtU1BicQ==",
+      "type": "package",
+      "path": "xam.plugins.messaging/5.0.0",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.xml",
+        "lib/UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/UAP10/Plugin.Messaging.dll",
+        "lib/UAP10/Plugin.Messaging.pdb",
+        "lib/UAP10/Plugin.Messaging.pri",
+        "lib/UAP10/Plugin.Messaging.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.xml",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Messaging.deps.json",
+        "lib/netstandard1.0/Plugin.Messaging.dll",
+        "lib/netstandard1.0/Plugin.Messaging.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.xml",
+        "xam.plugins.messaging.5.0.0.nupkg.sha512",
+        "xam.plugins.messaging.nuspec"
+      ]
+    },
     "Xamarin.Forms/2.5.1.527436": {
       "sha512": "HY6Kzu7fufV5PYkMcetpFmeQ8/NrOsolBc1XZzzZKqh2UrqWwkHC7UI5LmmZgfwqs/O9eP7tDIwc1lturp1vOw==",
       "type": "package",
@@ -6287,6 +6377,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "Acr.UserDialogs >= 6.0.0",
       "WindowsAzure.Storage >= 9.3.0",
+      "Xam.Plugins.Messaging >= 5.0.0",
       "Xamarin.Forms >= 2.5.1.527436",
       "Xamarin.Plugin.FilePicker >= 2.0.64-beta",
       "ZXing.Net.Mobile >= 2.3.2",
@@ -6333,6 +6424,10 @@
           "WindowsAzure.Storage": {
             "target": "Package",
             "version": "[9.3.0, )"
+          },
+          "Xam.Plugins.Messaging": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

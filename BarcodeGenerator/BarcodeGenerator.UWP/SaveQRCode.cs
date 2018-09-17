@@ -5,7 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.DataTransfer;
+using Windows.ApplicationModel.Email;
 using Windows.Graphics.Imaging;
 using Windows.Storage;
 using Windows.Storage.Streams;
@@ -127,6 +130,56 @@ namespace BarcodeGenerator.UWP
             return x;
         }
 
+       
+
+        
+
+        async void IDownloadImage.CopyImage(ZXingBarcodeImageView image)
+        {
+            EmailMessage emailMessage = new EmailMessage();
+            
+            string messageBody = "Hello World";
+            emailMessage.Body = messageBody;
+
+            var writer = new ZXing.Mobile.BarcodeWriter();
+
+            if (image != null && image.BarcodeOptions != null)
+                writer.Options = image.BarcodeOptions;
+            if (image != null)
+                writer.Format = image.BarcodeFormat;
+            var value = image != null ? image.BarcodeValue : string.Empty;
+            var wb = writer.Write(value);
+              StorageFile tempFile = await ApplicationData.Current.TemporaryFolder.CreateFileAsync("Barcode_Temp.jpeg", CreationCollisionOption.ReplaceExisting);
+            if (tempFile != null)
+            {
+                CachedFileManager.DeferUpdates(tempFile);
+                await ConvertToJPEGFileAsync(tempFile, wb);
+                var status = await CachedFileManager.CompleteUpdatesAsync(tempFile);
+
+                var dataPackage = new DataPackage();
+               
+                dataPackage.SetStorageItems(new List<IStorageItem>() { tempFile });
+                dataPackage.RequestedOperation = DataPackageOperation.Copy;
+                Windows.ApplicationModel.DataTransfer.Clipboard.SetContent(dataPackage);
+                ToastNotifier ToastNotifier = ToastNotificationManager.CreateToastNotifier();
+                Windows.Data.Xml.Dom.XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastText02);
+                Windows.Data.Xml.Dom.XmlNodeList toastNodeList = toastXml.GetElementsByTagName("text");
+                toastNodeList.Item(0).AppendChild(toastXml.CreateTextNode("Image Copied"));
+                toastNodeList.Item(1).AppendChild(toastXml.CreateTextNode("Image Copied Successfully"));
+                Windows.Data.Xml.Dom.IXmlNode toastNode = toastXml.SelectSingleNode("/toast");
+                Windows.Data.Xml.Dom.XmlElement audio = toastXml.CreateElement("audio");
+                audio.SetAttribute("src", "ms-winsoundevent:Notification.SMS");
+
+                ToastNotification toast = new ToastNotification(toastXml);
+                toast.ExpirationTime = DateTime.Now.AddSeconds(4);
+                ToastNotifier.Show(toast);
+
+            }
+
+            
+        }
+
+        
         
     } 
 }

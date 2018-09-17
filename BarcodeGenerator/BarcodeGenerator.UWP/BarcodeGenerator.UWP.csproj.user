@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
     <AppxShowAllApps>False</AppxShowAllApps>
-    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
     <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
-    <AppIconSource>C:\Users\Bhy1mtp\Documents\Project Docs\BarcodeGenerator\Icon_QRgen\Icon_QRgen\ios\iTunesArtwork%402x.png</AppIconSource>
-    <SplashScreenSource>C:\Users\Bhy1mtp\Downloads\Untitled %281%29.png</SplashScreenSource>
+    <AppIconSource>C:\Users\Bhy1mtp\Downloads\new_bar.jpg</AppIconSource>
+    <SplashScreenSource>C:\Users\Bhy1mtp\Downloads\new_bar.jpg</SplashScreenSource>
+    <LargeTileSource>C:\Users\Bhy1mtp\Downloads\new_bar.jpg</LargeTileSource>
+    <PackageLogoSource>C:\Users\Bhy1mtp\Downloads\new_bar.jpg</PackageLogoSource>
+    <BadgeLogoSource>
+    </BadgeLogoSource>
+    <WideTileSource>C:\Users\Bhy1mtp\Downloads\new_bar.jpg</WideTileSource>
+    <MediumTileSource>C:\Users\Bhy1mtp\Downloads\new_bar.jpg</MediumTileSource>
   </PropertyGroup>
 </Project>
